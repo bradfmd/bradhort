@@ -7,6 +7,9 @@
             App.setCopyRight();
             // App.setFixedNavbar();
             App.smoothScroll();
+            $('#mainLink').click(function (e) {
+                e.preventDefault();
+            });
         },
         setCopyRight: function() {
             var date, year;
